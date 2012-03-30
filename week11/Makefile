@@ -19,5 +19,5 @@ clean:
 	-rm *.o *.d *~
 
 archive:
-	tar -cvf archive.tar.gz ${SRC} *.h Makefile README
+	tar -zcvf archive.tar.gz *.h *.cpp Makefile README
 
